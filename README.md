@@ -1,4 +1,4 @@
-# CSSE416Project - Talor Swify LLM
+# CSSE416Project - Talor Swift LLM
 
 ## Overview
 * This repository contains all the Jupyter notebooks and datasets for our project
