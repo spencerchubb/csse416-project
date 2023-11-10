@@ -12,9 +12,9 @@ All dependencies are installed during the execution of the notebooks.
 
 
 ## Running the Code
-**Make sure to run the notebook in Google Colab with T4**
+**!! Make sure to run the notebook in Google Colab with T4 !!**
 
-* ### Running Fine-tuning Notebook
+* ### Running [Fine-tuning Notebook](https://github.com/spencerchubb/csse416-project/blob/main/Llama2/Fine-tune%20Llama%202%20in%20Google%20Colab.ipynb)
   * You need a Hugging Face account with an access token
   * After creating a Hugging Face account, you need to ask for permission for the Llama2 model
     *   Request access from [Meta](https://ai.meta.com/resources/models-and-libraries/llama-downloads/). **Make sure to use the same email used in Hugging Face account creation**
@@ -24,13 +24,13 @@ All dependencies are installed during the execution of the notebooks.
   * The latest model and various model checkpoint configurations will be saved to the local folder on Google Colab
   * Save at least one fine-tuned model by using the file explorer on Google Colab and drag the desired model into `content > drive > MyDrive`
 
-* ### Running Test Generation Notebook
+* ### Running [Test Generation Notebook](https://github.com/spencerchubb/csse416-project/blob/main/Llama2/Validation%20Generations%20(10%20epochs).ipynb)
   * Still, you need a Hugging Face account with access token
   * In the fifth code block, replace the `new_model` string the location where you saved the model config. It should be something like the following:
 ```
 new_model = "/content/drive/MyDrive/{your_model_config_location}"
 ```
 
-* ### Runing Analysis Notebook
+* ### Runing [Analysis Notebook](https://github.com/spencerchubb/csse416-project/blob/main/ResultProcessing/analysis.ipynb)
   * make sure `Taylor Swift or AI_.csv.zip` is on the same directory level as the notebook
   
