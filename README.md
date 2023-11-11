@@ -25,7 +25,7 @@ All dependencies are installed during the execution of the notebooks.
   * Save at least one fine-tuned model by using the file explorer on Google Colab and drag the desired model into `content > drive > MyDrive`
 
 * ### Running [Test Generation Notebook](https://github.com/spencerchubb/csse416-project/blob/main/Llama2/Validation%20Generations%20(10%20epochs).ipynb)
-  * You need a Hugging Face account with an access token
+  * You need a Hugging Face account with an access token and permission for Llama2 model
     * Refer to the previous section for guidance
   * In the fifth code block, replace the `new_model` string the location where you saved the model config. It should be something like the following:
 ```
